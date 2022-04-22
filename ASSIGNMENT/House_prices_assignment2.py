@@ -1,4 +1,4 @@
-from importlib import import_module
+
 
 import numpy as np   
 import pandas as pd 
@@ -138,7 +138,6 @@ unseen_poly=poly_model.predict(poly_feat.fit_transform(np.array([[1462]])))
 print(unseen_lin)
 print(unseen_poly)
 print(data.head(2))
-
 
 
 ###From this the polynomial model is giving better predection then the linear model.....
